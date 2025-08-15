@@ -5,6 +5,11 @@ internal class Subject
     private int SubjectId { get; set; }
     private string SubjectName { get; set; } = default!;
     public Exam SubjectExam { get; set; }
+    public Subject(int subjectId, string subjectName)
+    {
+        this.SubjectId = subjectId;
+        this.SubjectName = subjectName;
+    }
     // create Exam
     public void CreateExam()
     {
