@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //// Create Exam
-            Subject subject = new Subject();
+            Subject subject = new Subject(1, "C# OOP");
             subject.CreateExam();
 
             // I ask you to start the exam or not
