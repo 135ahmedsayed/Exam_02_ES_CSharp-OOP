@@ -2,8 +2,8 @@
 
 internal class Subject
 {
-    private int SubjectId { get; set; }
-    private string SubjectName { get; set; } = default!;
+    public int SubjectId { get; set; }
+    public string SubjectName { get; set; } = default!;
     public Exam SubjectExam { get; set; }
     public Subject(int subjectId, string subjectName)
     {
